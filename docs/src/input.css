@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+    .btn-dark {
+        @apply bg-primary rounded-md py-3 text-white;
+        transition: transform 0.3s ease;
+    }
+
+    .btn-dark:hover {
+        background-color: rgb(12, 93, 101) ;
+        transform: scale(0.98);
+    }
+    
+}
